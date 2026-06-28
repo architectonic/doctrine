@@ -25,6 +25,14 @@ npx architectonic add teleology
 
 `teleology` is retained only as a compatibility name. Telos is one doctrine component, not the whole package.
 
+Optional addon commonly paired with the stack:
+
+```bash
+npx architectonic add living-knowledge
+```
+
+That addon is separate from doctrine. It governs corpus maintenance campaigns, not first-principles governance.
+
 ## Role
 
 Doctrine answers:
@@ -59,6 +67,19 @@ physis.md            -- adaptive growth and identity-preserving change
 ## Relationship to constitution
 
 `constitution` is the root scaffold. `doctrine` is the principles layer inside it.
+
+## Relationship to the rest of the stack
+
+```text
+constitution      = composes the whole stack
+doctrine          = defines purpose, boundaries, and governing principles
+identity          = defines actors, authority, and privacy
+project           = defines operating-unit context
+skills            = defines reusable procedures
+knowledge         = defines the disclosed corpus of claims and evidence
+meta              = defines upkeep and recursive improvement
+living-knowledge  = optional addon for governed corpus maintenance campaigns
+```
 
 ## Paper alignment
 
