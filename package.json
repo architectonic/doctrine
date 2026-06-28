@@ -7,14 +7,18 @@
   "files": [
     "README.md",
     "doctrine.md",
+    "constitution.md",
     "oikonomia.md",
-    "aletheia-sophia.md"
+    "aletheia-sophia.md",
+    "physis.md"
   ],
   "keywords": [
     "architectonic",
     "doctrine",
     "teleology",
     "governance",
+    "oikonomia",
+    "physis",
     "okf"
   ]
 }
