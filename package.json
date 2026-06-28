@@ -1,0 +1,20 @@
+{
+  "name": "architectonic-doctrine",
+  "version": "0.1.0",
+  "description": "Runtime-neutral doctrine package for Architectonic systems.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "files": [
+    "README.md",
+    "doctrine.md",
+    "oikonomia.md",
+    "aletheia-sophia.md"
+  ],
+  "keywords": [
+    "architectonic",
+    "doctrine",
+    "teleology",
+    "governance",
+    "okf"
+  ]
+}
