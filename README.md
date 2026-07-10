@@ -9,62 +9,57 @@ status: draft
 
 # doctrine
 
-`doctrine` defines the governing principles of an Architectonic system.
-
-Install it with:
-
 ```bash
 npx architectonic add doctrine
 ```
 
+`doctrine` defines the governing principles of an Architectonic system: purpose, boundaries, evidence, authority, incentives, method, and adaptation.
+
 Teleology is the study of purpose and ends. Within Architectonic, purpose is one part of doctrine alongside ontology, epistemology, ethics, governance, incentives, method, and adaptation.
 
-## Role
-
-Doctrine answers:
+## In the ensemble
 
 ```text
-What is the system for?
-What boundaries govern action?
-What counts as evidence or knowledge?
-What entities and relationships matter?
-Who may decide, approve, delegate, or stop?
-How are incentives, costs, risks, and scarce resources handled?
-How should work proceed and be verified?
-How may the system adapt without silently changing its purpose or authority model?
+constitution      composition contract for the ensemble
+doctrine          purpose, principles, ontology, epistemology, ethics, governance, incentives
+identity          actors, roles, authority, delegation, incentives, privacy
+project           operating-unit context, sources, decisions, risks, continuity
+skills            reusable procedures, verification, failure handling
+knowledge         claims, sources, evidence, uncertainty, known unknowns
+models            model metadata, evaluations, capability requirements, routing policy
+agents            software actors composed from identity, skills, models, knowledge, permissions
+living-knowledge  optional: governed maintenance of frequently changing corpora
+meta              audit, upkeep, drift review, revision policy
 ```
 
-Doctrine makes assumptions and tradeoffs inspectable. Its principles remain open to revision when evidence, conditions, or legitimate authority change.
+Doctrine answers what the system is for, what boundaries govern action, what counts as evidence, who may decide or stop, how incentives and risks are handled, and how the system may adapt without silently changing its purpose or authority model. Its principles remain open to revision when evidence, conditions, or legitimate authority change.
+
+## Commands
+
+```bash
+npx architectonic add doctrine
+npx architectonic add doctrine --source npm
+npx architectonic init
+npx architectonic list
+npx architectonic doctor
+```
+
+CLI: https://github.com/architectonic/architectonic
 
 ## Boundary
 
 `doctrine` may contain general, runtime-neutral principles, schemas, examples, and source-backed references.
 
-Private identity, project facts, runtime secrets, handoffs, skill corpora, model evaluations, agent instances, and knowledge corpora belong in their respective packages or instantiated workspaces.
+Private identity, project facts, runtime secrets, skill corpora, model evaluations, agent instances, and knowledge corpora belong in their respective packages or instantiated workspaces.
 
 ## Core files
 
 ```text
-doctrine.md          -- root principles contract
-constitution.md      -- relationship to the composition contract
-oikonomia.md         -- incentives, resources, risks, costs, and benefits
-aletheia-sophia.md   -- knowledge and system-maintenance distinctions
-physis.md            -- adaptive change and continuity
+doctrine.md          root principles contract
+constitution.md      relationship to the composition contract
+oikonomia.md         incentives, resources, risks, costs, and benefits
+aletheia-sophia.md   knowledge and system-maintenance distinctions
+physis.md            adaptive change and continuity
 ```
 
-Greek-derived terms may serve as compact internal vocabulary, but plain-language definitions remain primary.
-
-## Relationship to the ensemble
-
-```text
-constitution      = composes the ensemble
-doctrine          = defines purpose, boundaries, and governing principles
-identity          = defines actors, authority, delegation, incentives, and privacy
-project           = defines operating-unit context
-skills            = defines reusable procedures and verification
-knowledge         = defines retained claims, sources, evidence, uncertainty, and gaps
-models            = defines model capabilities, constraints, evaluations, and routing evidence
-agents            = composes actors, procedures, models, knowledge, and permissions
-living-knowledge  = defines governed maintenance of changing corpora
-meta              = defines audit, upkeep, drift review, and revision policy
-```
+Greek-derived terms may serve as compact internal vocabulary; plain-language definitions remain primary.
