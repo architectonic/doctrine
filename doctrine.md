@@ -9,33 +9,32 @@ status: draft
 
 # Doctrine Contract
 
-Architectonic is a living discipline for improving judgment across humans and AI.
+Architectonic is a systemic way of thinking.
 
-Doctrine preserves distinctions that govern that discipline and defines admissible paths for systems that implement it.
-
-Software, agents, models, repositories, memories, and organizations are temporary embodiments. They are not the doctrine itself.
+Doctrine defines the principles, boundaries, and decision rules used by systems that implement it.
 
 ## Root objective
 
-The objective is not to maximize intelligence, cleverness, erudition, automation, or output independently.
+The objective is to improve judgment by making the basis and consequences of decisions explicit.
 
-The objective is to improve judgment:
+For material decisions, ask:
 
 ```text
 What is being claimed?
-What kind of knowledge supports it?
-What kind of cognition produced it?
+What evidence supports it?
+What assumptions are being made?
 What is missing?
-What would falsify it?
+What would change the conclusion?
+Who has authority to decide?
 What action is justified?
 What are the likely consequences?
 ```
 
-Architectonic should preserve reusable judgment rather than merely accumulate information. A stored artifact is valuable only when it improves future judgment, routes to evidence, preserves a necessary distinction, defines an authority boundary, or changes future action.
+A stored artifact is useful when it routes to evidence, preserves a necessary distinction or decision, defines authority, reduces ambiguity, or changes future action.
 
-## Durable distinctions
+## Useful distinctions
 
-A durable distinction is a conceptual boundary that repeatedly improves explanation, judgment, or action across contexts.
+A useful distinction is a conceptual boundary that improves explanation, coordination, judgment, or action.
 
 Examples include:
 
@@ -46,25 +45,22 @@ Examples include:
 - passing a test is not solving the problem;
 - generation is not judgment;
 - authority is not truth;
-- an implementation is not the principle it embodies.
+- an implementation is not the principle it implements.
 
-Durable distinctions must remain challengeable. They may be refined, combined, superseded, or retired when better distinctions explain reality and guide action more effectively.
+Distinctions remain open to revision, combination, replacement, or retirement when better ones explain reality or guide action more effectively.
 
 ## Human and AI cognition
 
-A useful default collaboration pattern is complementary:
+A useful collaboration pattern is:
 
 ```text
-AI expands the search space:
-possibilities, connections, analogies, alternatives, synthesis
-
-Humans search for invariants:
-what survives, what is fundamental, what is proportionate, what should govern action
+AI explores possibilities, connections, and alternatives.
+Humans identify priorities, constraints, invariants, and acceptable consequences.
 ```
 
-These are tendencies, not exclusive roles. Humans also generate; AI can also test invariants. The doctrine uses the distinction to expose missing cognitive work, not to impose a fixed ontology of humans and machines.
+These are tendencies, not fixed roles. Either participant may generate possibilities, test assumptions, or identify patterns. The distinction exists to expose missing cognitive work.
 
-Generation without judgment produces plausible noise. Judgment without exploration misses possibilities. Before material action, the system should expose which cognitive mode is active and which modes remain absent.
+Before material action, the system should make clear which forms of reasoning were used and which remain absent.
 
 ## Components
 
@@ -76,8 +72,8 @@ Oikonomia     incentives, scarce resources, costs, benefits, risks, attention, b
 Logos         reason-giving, explanation, evidence-sensitive argument
 Ontology      what kinds of entities exist in the system
 Epistemology  how belief, evidence, memory, and interpretation become justified knowledge
-Cognition     intelligence, cleverness, erudition, wisdom, and their failure modes
-Metacognition recognition of what kind of thinking produced a conclusion and what remains missing
+Cognition     forms of reasoning and their failure modes
+Metacognition inspection of how a conclusion was produced and what remains missing
 Methodology   how work should proceed
 ```
 
@@ -86,29 +82,20 @@ Teleology specifies direction. Doctrine defines legitimate pursuit.
 ## Operating rules
 
 1. Purpose does not justify prohibited means.
-2. Ethics, governance, and incentives are not derivable from purpose; they must be specified.
+2. Ethics, governance, and incentives must be specified rather than inferred from purpose.
 3. Claims require source status, uncertainty status, and provenance.
 4. Authority must be explicit when work affects shared artifacts or other actors.
 5. Incentives must be considered when actors disagree, delegate, fund, approve, or bear risk.
 6. Doctrine may evolve, but amendments require reasons, scope, and record.
 7. Do not mistake fluent synthesis for expertise, tactical cleverness for wisdom, erudition for practical judgment, or confidence for correctness.
-8. Before material action, identify the epistemic mode, dominant cognition, missing cognition, evidence gaps, and downstream consequences.
+8. Before material action, identify the epistemic mode, evidence gaps, missing reasoning, and downstream consequences.
 9. Prefer the smallest structure that preserves the necessary distinction and performs the work.
-10. Every implementation must remain replaceable without destroying the governing principle.
+10. Keep implementations replaceable.
 
-## Substrate independence
+## Boundary
 
-Architectonic doctrine should survive replacement of:
+Doctrine contains general, runtime-neutral principles. It must not contain personal identity, private project facts, local paths, credentials, project handoffs, runtime state, or organization-specific memory.
 
-- the current CLI and package format;
-- Workframe, ABKB, Hermes, or any runtime;
-- current agents, skills, models, or repositories;
-- any individual human or model generation.
+Doctrine is not a project memory dump, prompt pack, runtime profile, personality file, skill corpus, or static philosophy archive.
 
-An implementation is faithful when it improves judgment according to the doctrine. It is unfaithful when it preserves the vocabulary while degrading evidence, clarity, authority, proportionality, or consequence awareness.
-
-## Non-goals
-
-Doctrine is not a project memory dump, prompt pack, runtime profile, personality file, skill corpus, founder memorial, or static philosophy archive.
-
-It is a living governing discipline whose value must be demonstrated through better judgment and action.
+Its value must be demonstrated through clearer decisions and better action.
