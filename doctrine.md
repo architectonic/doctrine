@@ -11,7 +11,7 @@ status: draft
 
 Architectonic is a living discipline for improving judgment across humans and AI.
 
-Doctrine exists to preserve the durable distinctions that govern that discipline and to define admissible paths for systems that implement it.
+Doctrine preserves distinctions that govern that discipline and defines admissible paths for systems that implement it.
 
 Software, agents, models, repositories, memories, and organizations are temporary embodiments. They are not the doctrine itself.
 
@@ -31,7 +31,7 @@ What action is justified?
 What are the likely consequences?
 ```
 
-Architectonic should accumulate cognition rather than information. A stored artifact is valuable only when it improves future judgment, routes to evidence, preserves a necessary distinction, defines an authority boundary, or changes future action.
+Architectonic should preserve reusable judgment rather than merely accumulate information. A stored artifact is valuable only when it improves future judgment, routes to evidence, preserves a necessary distinction, defines an authority boundary, or changes future action.
 
 ## Durable distinctions
 
@@ -52,7 +52,7 @@ Durable distinctions must remain challengeable. They may be refined, combined, s
 
 ## Human and AI cognition
 
-Architectonic assumes a complementary partnership:
+A useful default collaboration pattern is complementary:
 
 ```text
 AI expands the search space:
@@ -62,21 +62,23 @@ Humans search for invariants:
 what survives, what is fundamental, what is proportionate, what should govern action
 ```
 
-Generation without judgment produces plausible noise. Judgment without exploration misses possibilities. The system should expose which cognitive mode is active and which modes are absent before material action.
+These are tendencies, not exclusive roles. Humans also generate; AI can also test invariants. The doctrine uses the distinction to expose missing cognitive work, not to impose a fixed ontology of humans and machines.
+
+Generation without judgment produces plausible noise. Judgment without exploration misses possibilities. Before material action, the system should expose which cognitive mode is active and which modes remain absent.
 
 ## Components
 
 ```text
-Telos        purpose and desired end state
-Ethos        admissible conduct and forbidden means
-Nomos        authority, governance, policy, amendment, override, stop conditions
-Oikonomia    incentives, scarce resources, costs, benefits, risks, attention, budgets
-Logos        reason-giving, explanation, evidence-sensitive argument
-Ontology     what kinds of entities exist in the system
-Epistemology how belief, evidence, memory, and interpretation become justified knowledge
-Cognition    intelligence, cleverness, erudition, wisdom, and their failure modes
+Telos         purpose and desired end state
+Ethos         admissible conduct and forbidden means
+Nomos         authority, governance, policy, amendment, override, stop conditions
+Oikonomia     incentives, scarce resources, costs, benefits, risks, attention, budgets
+Logos         reason-giving, explanation, evidence-sensitive argument
+Ontology      what kinds of entities exist in the system
+Epistemology  how belief, evidence, memory, and interpretation become justified knowledge
+Cognition     intelligence, cleverness, erudition, wisdom, and their failure modes
 Metacognition recognition of what kind of thinking produced a conclusion and what remains missing
-Methodology  how work should proceed
+Methodology   how work should proceed
 ```
 
 Teleology specifies direction. Doctrine defines legitimate pursuit.
@@ -96,7 +98,7 @@ Teleology specifies direction. Doctrine defines legitimate pursuit.
 
 ## Substrate independence
 
-Architectonic doctrine must survive replacement of:
+Architectonic doctrine should survive replacement of:
 
 - the current CLI and package format;
 - Workframe, ABKB, Hermes, or any runtime;
@@ -109,4 +111,4 @@ An implementation is faithful when it improves judgment according to the doctrin
 
 Doctrine is not a project memory dump, prompt pack, runtime profile, personality file, skill corpus, founder memorial, or static philosophy archive.
 
-It is a living governing discipline whose value is demonstrated through better judgment and action.
+It is a living governing discipline whose value must be demonstrated through better judgment and action.
