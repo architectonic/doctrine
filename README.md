@@ -1,8 +1,8 @@
 ---
 type: Entry Point
 title: doctrine
-description: Runtime-neutral doctrine package for purpose, ethics, ontology, epistemology, governance, incentives, method, and adaptive change.
-tags: [doctrine, teleology, epistemology, ontology, ethics, governance, oikonomia, physis, okf]
+description: Runtime-neutral principles for purpose, ethics, ontology, epistemology, governance, incentives, method, and adaptive change.
+tags: [doctrine, purpose, epistemology, ontology, ethics, governance, incentives, okf]
 okf_version: "0.1"
 status: draft
 ---
@@ -23,7 +23,7 @@ Legacy alias:
 npx architectonic add teleology
 ```
 
-`teleology` is retained only as a compatibility name. Telos is one doctrine component, not the whole package.
+`teleology` is retained only for compatibility. Purpose is one part of doctrine, not the whole package.
 
 Optional addon commonly paired with the stack:
 
@@ -31,7 +31,7 @@ Optional addon commonly paired with the stack:
 npx architectonic add living-knowledge
 ```
 
-That addon is separate from doctrine. It governs corpus maintenance campaigns, not first-principles governance.
+That addon is separate from doctrine. It defines corpus-maintenance procedures rather than governing principles.
 
 ## Role
 
@@ -39,18 +39,20 @@ Doctrine answers:
 
 ```text
 What is the system for?
-What must not be violated?
-What counts as knowledge?
-What exists in the system?
-Who may decide?
+What boundaries should govern action?
+What counts as evidence or knowledge?
+What entities and relationships matter?
+Who may decide, approve, delegate, or stop?
 How are incentives, costs, risks, and scarce resources handled?
-How should work proceed?
-How does the system adapt without losing identity?
+How should work proceed and be verified?
+How may the system adapt without silently changing its purpose or authority model?
 ```
+
+Doctrine should make assumptions and tradeoffs inspectable. It should not present provisional principles as universal truths.
 
 ## Boundary
 
-`doctrine` may contain general, runtime-neutral governing principles, schemas, examples, and source-backed references.
+`doctrine` may contain general, runtime-neutral principles, schemas, examples, and source-backed references.
 
 It must not contain private identity, private project facts, runtime secrets, project handoffs, skill corpora, or knowledge corpora.
 
@@ -59,10 +61,12 @@ It must not contain private identity, private project facts, runtime secrets, pr
 ```text
 doctrine.md          -- root doctrine contract
 constitution.md      -- relationship to the constitution scaffold
-oikonomia.md         -- incentives, resources, risks, costs, benefits
-aletheia-sophia.md   -- knowledge corpus and recursive improvement
-physis.md            -- adaptive growth and identity-preserving change
+oikonomia.md         -- incentives, resources, risks, costs, and benefits
+aletheia-sophia.md   -- knowledge and system-maintenance distinctions
+physis.md            -- adaptive change and continuity
 ```
+
+The Greek-derived filenames are retained as internal vocabulary. Plain-language explanations should remain primary, and no reader should need the terminology to use the package.
 
 ## Relationship to constitution
 
@@ -77,10 +81,6 @@ identity          = defines actors, authority, and privacy
 project           = defines operating-unit context
 skills            = defines reusable procedures
 knowledge         = defines the disclosed corpus of claims and evidence
-meta              = defines upkeep and recursive improvement
-living-knowledge  = optional addon for governed corpus maintenance campaigns
+meta              = defines upkeep, audit, and revision policy
+living-knowledge  = optional addon for governed corpus maintenance
 ```
-
-## Paper alignment
-
-In the Constitutional Architectonics paper, this package corresponds to the governing layer: Archē, Telos, Ethos, Nomos, Oikonomia, Logos, and the doctrine-side definitions of Ontos, Aletheia, Sophia, and Physis.
