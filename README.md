@@ -1,36 +1,21 @@
 # Doctrine
 
-> **Status: experimental, pre-1.0.** This package defines one layer of the Architectonic protocol. Evaluate it through its canonical contract, package validator, conformance manifest, and explicit limitations.
+> **Status: experimental, pre-1.0.** Doctrine makes declared purpose, conduct, authority, evidence, incentives, judgment, and method inspectable. It does not make declared principles true, complete, lawful, or wise.
 
-`doctrine` defines the general decision rules that constrain action under the constitution.
-
-## What it gives an agent
-
-- one predictable home for this concern;
-- a canonical entry that can be found through `architectonic map`;
-- a machine-readable `architectonic.protocol.json`;
-- boundaries that prevent neighboring layers from silently owning the same concept;
-- package validation that runs against both the source checkout and the exact npm tarball.
-
-## Canonical entry
-
-```text
-doctrine.md
-```
-
-## Boundary
-
-It contains runtime-neutral principles, not private identity, project state, credentials, prompts, or knowledge corpora.
-
-## Install
+`doctrine` is a standalone layer of general decision rules. It may accompany a constitution, actor system, project, corpus, or agent team, but it does not own their local facts.
 
 ```bash
-npx architectonic@latest add doctrine --source npm
-npx architectonic@latest verify
+npx architectonic@latest init principles --preset doctrine --source npm
 ```
 
-Installing a layer provides reusable public structure. Organization-specific facts, private knowledge, credentials, runtime state, and local decisions belong only in controlled workspace instances.
+Adaptive doctrine favors the smallest justified structure:
 
-## Claims
+- no durable artifact for disposable work;
+- one layer for one durable concern;
+- compound profiles only when concerns repeatedly interact;
+- ordinary knowledge by default;
+- living knowledge only when correctness decays with external source change;
+- loops only with state, verification, budgets, authority, and stopping conditions;
+- graphs as replaceable projections over canonical sources.
 
-This package claims only that its declared structure and validators are inspectable and reproducible. It does not claim universal performance improvement or domain correctness.
+See [`docs/ADAPTIVE_SYSTEMS.md`](./docs/ADAPTIVE_SYSTEMS.md) and [`doctrine.md`](./doctrine.md).
