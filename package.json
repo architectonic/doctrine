@@ -1,6 +1,6 @@
 {
   "name": "architectonic-doctrine",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Doctrine layer for purpose, conduct, authority, evidence, incentives, judgment, and method.",
   "license": "Apache-2.0",
   "type": "module",
