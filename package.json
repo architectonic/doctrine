@@ -1,7 +1,7 @@
 {
   "name": "architectonic-doctrine",
-  "version": "0.1.2",
-  "description": "Runtime-neutral doctrine package for Architectonic systems.",
+  "version": "0.2.0",
+  "description": "Doctrine layer for purpose, conduct, authority, evidence, incentives, judgment, and method.",
   "license": "Apache-2.0",
   "type": "module",
   "repository": {
@@ -13,19 +13,29 @@
   },
   "files": [
     "README.md",
+    "CHANGELOG.md",
+    "architectonic.protocol.json",
     "doctrine.md",
     "constitution.md",
+    "incentives.md",
+    "knowledge-and-judgment.md",
+    "adaptation.md",
     "oikonomia.md",
     "aletheia-sophia.md",
-    "physis.md"
+    "physis.md",
+    "docs",
+    "scripts"
   ],
+  "scripts": {
+    "validate": "node scripts/validate-package.mjs",
+    "test": "npm run validate"
+  },
   "keywords": [
     "architectonic",
     "doctrine",
-    "teleology",
-    "governance",
-    "oikonomia",
-    "physis",
-    "okf"
+    "human-ai",
+    "agents",
+    "provenance",
+    "governance"
   ]
 }

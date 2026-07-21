@@ -1,65 +1,36 @@
----
-type: Entry Point
-title: doctrine
-description: Runtime-neutral principles for purpose, ethics, ontology, epistemology, governance, incentives, method, and adaptive change.
-tags: [doctrine, purpose, epistemology, ontology, ethics, governance, incentives, okf]
-okf_version: "0.2"
-status: draft
----
+# Doctrine
 
-# doctrine
+> **Status: experimental, pre-1.0.** This package defines one layer of the Architectonic protocol. Evaluate it through its canonical contract, package validator, conformance manifest, and explicit limitations.
 
-```bash
-npx architectonic add doctrine
-```
+`doctrine` defines the general decision rules that constrain action under the constitution.
 
-`doctrine` defines the governing principles of an Architectonic system: purpose, boundaries, evidence, authority, incentives, method, and adaptation.
+## What it gives an agent
 
-Teleology is the study of purpose and ends. Within Architectonic, purpose is one part of doctrine alongside ontology, epistemology, ethics, governance, incentives, method, and adaptation.
+- one predictable home for this concern;
+- a canonical entry that can be found through `architectonic map`;
+- a machine-readable `architectonic.protocol.json`;
+- boundaries that prevent neighboring layers from silently owning the same concept;
+- package validation that runs against both the source checkout and the exact npm tarball.
 
-## In the ensemble
+## Canonical entry
 
 ```text
-constitution      composition contract for the ensemble
-doctrine          purpose, principles, ontology, epistemology, ethics, governance, incentives
-identity          actors, roles, authority, delegation, incentives, privacy
-project           operating-unit context, sources, decisions, risks, continuity
-skills            reusable procedures, verification, failure handling
-knowledge         claims, sources, evidence, uncertainty, known unknowns
-models            model metadata, evaluations, capability requirements, routing policy
-agents            software actors composed from identity, skills, models, knowledge, permissions
-living-knowledge  optional: governed maintenance of frequently changing corpora
-meta              audit, upkeep, drift review, revision policy
+doctrine.md
 ```
-
-Doctrine answers what the system is for, what boundaries govern action, what counts as evidence, who may decide or stop, how incentives and risks are handled, and how the system may adapt without silently changing its purpose or authority model. Its principles remain open to revision when evidence, conditions, or legitimate authority change.
-
-## Commands
-
-```bash
-npx architectonic add doctrine
-npx architectonic add doctrine --source npm
-npx architectonic init
-npx architectonic list
-npx architectonic doctor
-```
-
-CLI: https://github.com/architectonic/architectonic
 
 ## Boundary
 
-`doctrine` may contain general, runtime-neutral principles, schemas, examples, and source-backed references.
+It contains runtime-neutral principles, not private identity, project state, credentials, prompts, or knowledge corpora.
 
-Private identity, project facts, runtime secrets, skill corpora, model evaluations, agent instances, and knowledge corpora belong in their respective packages or instantiated workspaces.
+## Install
 
-## Core files
-
-```text
-doctrine.md          root principles contract
-constitution.md      relationship to the composition contract
-oikonomia.md         incentives, resources, risks, costs, and benefits
-aletheia-sophia.md   knowledge and system-maintenance distinctions
-physis.md            adaptive change and continuity
+```bash
+npx architectonic@latest add doctrine --source npm
+npx architectonic@latest verify
 ```
 
-Greek-derived terms may serve as compact internal vocabulary; plain-language definitions remain primary.
+Installing a layer provides reusable public structure. Organization-specific facts, private knowledge, credentials, runtime state, and local decisions belong only in controlled workspace instances.
+
+## Claims
+
+This package claims only that its declared structure and validators are inspectable and reproducible. It does not claim universal performance improvement or domain correctness.
