@@ -1,5 +1,7 @@
 # Doctrine
 
+**Architectonic layer:** [main CLI and adaptive profiles](https://github.com/architectonic/architectonic)
+
 > **Status: experimental, pre-1.0.** Doctrine makes declared purpose, conduct, authority, evidence, incentives, judgment, and method inspectable. It does not make declared principles true, complete, lawful, or wise.
 
 `doctrine` is a standalone layer of general decision rules. It may accompany a constitution, actor system, project, corpus, or agent team, but it does not own their local facts.
